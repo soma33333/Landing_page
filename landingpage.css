@@ -1,0 +1,97 @@
+*{
+    background-color: rgb(28, 24, 24);
+    padding: 0;
+    margin: 0;
+} 
+h1{
+    margin-right: 100px;
+    color: brown;
+    text-align: center;
+    font-family: "Geneva";
+    font-style: italic;
+    font-size: 70px;
+}
+h3{
+    height: 50px;
+    width: 140px; 
+    border-radius: 50px;
+    background-color: rgb(220, 215, 215);
+    color: black; 
+}
+.header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(213, 212, 212);
+    text-align: center;
+    margin-right: 50px;
+    font-size: 30px;
+    height: 70px;
+    background-color: rgb(33, 32, 30);
+}
+.pic{
+    height: 600px;
+    width:800px;
+    background-image: url(biriyani.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para{
+    font-style: oblique;
+    color: cornsilk;
+    float: right;
+    margin-top: -550px;
+    height: 500px;
+    width:450px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    word-spacing: 40px;
+}
+.footer{
+    font-size: 40px;
+    padding: 20px;
+    height: 150px;
+    background-color:rgb(120, 12, 12);
+}
+#terms{
+    text-align: center;
+    background-color: rgb(29, 20, 20);
+    color: rgb(174, 149, 149);
+    height: 60px;
+    font-size: 25px;
+    word-spacing: 60px;
+}
+
+#button{
+    height: 75px;
+    width: 150px; 
+    border-radius: 100px; 
+    text-align: center; 
+    font-size: 30px; 
+    border: 2px solid white;
+    background-color:rgb(215, 90, 27);
+    animation: myscale;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+
+}
+h3:hover{
+    
+    background-color: rgb(255, 170, 127);
+}
+#button:hover{
+    background-color: rgb(10, 9, 9);
+    color: aliceblue;
+}
+
+@keyframes myscale{
+    50%{transform: scale(2,1);}
+}
+a:hover{
+    transform: scale(0.7,0.7);
+}
