@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(28, 24, 24);
+    /* background-color: rgb(28, 24, 24); */
     padding: 0;
     margin: 0;
 } 
@@ -28,6 +28,8 @@ h3{
     margin-right: 50px;
     font-size: 30px;
     height: 70px;
+    width: 1250px;
+
     background-color: rgb(33, 32, 30);
 }
 .pic{
@@ -39,6 +41,7 @@ h3{
     background-size: cover;
 }
 .para{
+    background-color: black;
     font-style: oblique;
     color: cornsilk;
     float: right;
@@ -94,4 +97,43 @@ h3:hover{
 }
 a:hover{
     transform: scale(0.7,0.7);
+}
+
+.menu{
+    height:800px ;
+    width: 100%;
+}
+
+.container {
+    width:40%;
+    margin: auto;
+    padding: 20px;
+    margin-left: 35%;
+}
+.text {
+    font-size: 40px;
+    color: #b41818;
+    white-space: pre-wrap;/* Keeps the line breaks */
+}
+
+.about{
+    background-color: rgb(27, 27, 25);
+    /* color: rgb(143, 143, 139); */
+    color: cornsilk;
+    height: 100%;
+    width: 100%;
+   
+}
+
+pre{
+    font-size: 20px;
+    height: 100%;
+    width: 700px;
+}
+span{
+    color: rgb(185, 21, 24);
+}
+
+.ppp{
+    background-color: black;
 }
