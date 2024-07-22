@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    const   text=`NIMMA BIRIYANI MANE`;
+    const   text=`Biryani Fusion`;
 
     let index = 0;
     const speed = 50; // Adjust the speed here (milliseconds)
@@ -16,3 +16,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }, speed);
 });
+

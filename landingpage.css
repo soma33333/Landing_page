@@ -18,7 +18,19 @@ h3{
     background-color: rgb(220, 215, 215);
     color: black; 
 }
+
+div.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+div.choice{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+}
 .header{
+    position: sticky;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -27,15 +39,14 @@ h3{
     text-align: center;
     margin-right: 50px;
     font-size: 30px;
-    height: 70px;
+    height: 50px;
     width: 1250px;
-
     background-color: rgb(33, 32, 30);
 }
 .pic{
     height: 600px;
     width:800px;
-    background-image: url(biriyani.jpeg);
+    background-image: url(images/biriyani.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,10 +110,6 @@ a:hover{
     transform: scale(0.7,0.7);
 }
 
-.menu{
-    height:800px ;
-    width: 100%;
-}
 
 .container {
     width:40%;
@@ -111,7 +118,9 @@ a:hover{
     margin-left: 35%;
 }
 .text {
-    font-size: 40px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
     color: #b41818;
     white-space: pre-wrap;/* Keeps the line breaks */
 }
@@ -137,3 +146,71 @@ span{
 .ppp{
     background-color: black;
 }
+
+.veg-menu{
+    height:435px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu{
+    padding: 20px;
+    background-color: rgb(107, 103, 103);
+    height:100% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.non-veg-menu{
+    height:435px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gap{
+    height: 115px;
+    width: 100%;
+}
+
+.men{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 19px;
+    line-height:25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 150px;
+    width: 350px;
+    transition: transform .2s;
+}
+
+.men:hover{
+    transform: scale(1.2);
+}
+
+.choice{
+    margin-left: 35%;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
