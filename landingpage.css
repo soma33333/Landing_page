@@ -30,8 +30,10 @@ div.choice{
     top: 90px;
 }
 .header{
-    position: sticky;
-    padding: 20px;
+    
+    /* padding: 15px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,7 +42,7 @@ div.choice{
     margin-right: 50px;
     font-size: 30px;
     height: 50px;
-    width: 1250px;
+    width: 100%;
     background-color: rgb(33, 32, 30);
 }
 .pic{
@@ -87,18 +89,14 @@ div.choice{
     font-size: 30px; 
     border: 2px solid white;
     background-color:rgb(215, 90, 27);
-    animation: myscale;
-    animation-duration: 2s;
-    animation-iteration-count:infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-out;
-
+   
 }
 h3:hover{
     
     background-color: rgb(255, 170, 127);
 }
 #button:hover{
+    scale: 0.8;
     background-color: rgb(10, 9, 9);
     color: aliceblue;
 }
@@ -161,7 +159,7 @@ span{
     padding: 20px;
     background-color: rgb(107, 103, 103);
     height:100% ;
-    width: 100%;
+    width: 96.9%;
     display: flex;
     flex-direction: column;
     justify-content: center;
