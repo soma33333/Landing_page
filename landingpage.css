@@ -23,6 +23,7 @@ div.header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    width: 100%;
 }
 div.choice{
     position: -webkit-sticky;
@@ -39,10 +40,10 @@ div.choice{
     justify-content: space-between;
     color: rgb(213, 212, 212);
     text-align: center;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     font-size: 30px;
     height: 50px;
-    width: 100%;
+    width: 99%;
     background-color: rgb(33, 32, 30);
 }
 .pic{
@@ -67,12 +68,15 @@ div.choice{
     word-spacing: 40px;
 }
 .footer{
+    width: 100%;
     font-size: 40px;
-    padding: 20px;
-    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100px;
     background-color:rgb(120, 12, 12);
 }
 #terms{
+   
     text-align: center;
     background-color: rgb(29, 20, 20);
     color: rgb(174, 149, 149);
@@ -178,7 +182,7 @@ span{
 }
 
 .gap{
-    height: 115px;
+    height: 125px;
     width: 100%;
 }
 
